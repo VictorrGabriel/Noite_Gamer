@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+body{
+    background-color: aliceblue;
+    font: normal 16px 'Quicksand', sans-serif;
+}
+header{
+    
+}
+nav{
+    background-color: blueviolet;
+    text-align: right;
+    width: 1200px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.765);
+    position: fixed;
+    height: 23px;
+}
+.header-list{
+    list-style: none;
+    margin-top: 1px;
+    
+}
+.item-header-list{
+    display: inline;
+    font-size: 0.9em;
+    padding-right: 150px;
+
+    
+}
+.header-link-list{
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    box-shadow: 8px 8px 10px rgb(204, 203, 203);
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding-left: 40px;
+}
+p{
+    text-indent: 10px;
+    text-align: justify;
+    
+}
+h3{
+    color: blueviolet;
+    font-weight: bold;
+}
+.img-p{
+    padding-left: 71px;
+    display: inline;
+}
+.img-pcds{
+    width: 350px;
+    height: 196;
+}
+.img-p-p{
+    text-align: center;
+}
+.header-link-list::before{
+    content: "| ";
+}
+.header-link-list::after{
+    content: " |";
+}
+.header-link-list:hover{
+    color: rgb(255, 145, 0);
+    text-decoration: underline;
+}
