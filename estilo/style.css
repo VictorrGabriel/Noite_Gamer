@@ -45,7 +45,6 @@ main {
     background-color: white;
     border-radius: 20px 20px 0 0;
     max-width: 1200px;
-    height: 600px;
     margin: auto;
 }
 
@@ -67,12 +66,41 @@ main h2 {
     text-indent: 30px;
     padding-bottom: 20px;
 }
-select#sec1 {
-    position: relative;
+
+section#sec1 {
+    max-width: 1000px;
+    margin: auto;
 }
 
+article#post1 {
+    max-width: 1000px ;
+    background-color: aliceblue;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #0000001a;
+}
 
-div#div1 {
+article#post1 p {
+    text-align: justify ;
+    font-weight: 600;
+}
+
+article#post1 div {
+    max-width: 95%;
+    margin: auto;
+}
+
+article#post1 picture p {
+
+    text-align: center;
+}
+
+/* select#sec1 {
+    position: relative;
+} */
+
+
+/* div#div1 {
     margin: 15px;
     background-color: purple;
     width: 200px;
@@ -97,7 +125,9 @@ div#div2 h3, p {
 
 img.foto{
     width: 200px;
-}
+} */
+
+
 
 footer{
     background-color: var(--cor1);
