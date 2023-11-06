@@ -90,15 +90,26 @@ article#post1 div {
     margin: auto;
 }
 
+
 article#post1 picture p {
 
     text-align: center;
 }
 
+.imgC {
+    text-align: center;
+}
+
+article.posts {
+    background-color: aliceblue;
+    padding: 10px 10px;
+    max-width: 250px;
+    display: inline-block;
+}
+
 /* select#sec1 {
     position: relative;
 } */
-
 
 /* div#div1 {
     margin: 15px;
