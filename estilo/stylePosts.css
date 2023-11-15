@@ -33,18 +33,8 @@
 }
 
 .position{
-    position: relative;
-}
-
-.position p {
-    position: absolute;
-    top: 8px;
-    left: 269px;
-    display: none;
-}
-
-.hidden_txt:hover p {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 .destauqes img {
