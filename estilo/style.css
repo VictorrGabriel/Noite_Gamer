@@ -9,11 +9,11 @@
 }
 
 :root{
-    --cor0: #2DDDE0;
-    --cor1: #2D6CE0;
+    --cor0: #70BBE0;
+    --cor1: #538AA6;
     --cor2: #2DA5E0;
-    --cor3: #2DE0A7;
-    --cor4: #2D33E0;
+    --cor3: #1E6C93;
+    --cor4: #134761;
 
     --font-padrao: Arial, verdana, helvetica, sans-serif;
     --font-titulo-site: 'Nunito', Arial, sans-serif;
@@ -76,7 +76,7 @@ article#post1 {
     max-width: 1000px ;
     background-color: aliceblue;
     padding-top: 15px;
-    border-radius: 10px;
+    border-radius: 5px 5px 0 0 ;
     box-shadow: 1px 1px 1px 1px #0000001a;
 }
 
@@ -98,13 +98,6 @@ article#post1 picture p {
 
 .imgC {
     text-align: center;
-}
-
-article.posts {
-    background-color: aliceblue;
-    padding: 10px 10px;
-    max-width: 250px;
-    display: inline-block;
 }
 
 /* select#sec1 {

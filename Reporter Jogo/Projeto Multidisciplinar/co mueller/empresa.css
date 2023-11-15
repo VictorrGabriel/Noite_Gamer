@@ -8,6 +8,11 @@ body{
 header{
     
 }
+
+img{
+    width: 100%;
+}
+
 nav{
     background-color: blueviolet;
     color: aliceblue;
