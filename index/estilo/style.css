@@ -28,8 +28,12 @@ body{
 }
 
 header{
-    background-image: ;
-    height: 200px;
+    background-image: url('../imagens/fundo.png') ;
+    background-position: top center;
+    background-size: 100vw;
+    max-height: 250px;
+    text-align: center;
+    line-height: 200px;
 }
 
 header div {
@@ -37,7 +41,9 @@ header div {
 }
 
 header h1 {
-    font: thin 1.5em var(--font-titulo-site);
+    color: white;
+    font-weight: 100;
+    font-family: var(--font-titulo-site);
 }
 
 
@@ -48,57 +54,6 @@ main {
     margin: auto;
 }
 
-main h1 {
-    font-family: var(--font-titulos);
-    padding-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-p#subtitulo{
-    text-align: center;
-    font-size: 1.2em;
-    font-style: italic;
-    margin-bottom: 30px;
-}
-
-main h2 {
-    text-indent: 30px;
-    padding-bottom: 20px;
-}
-
-section#sec1 {
-    max-width: 1000px;
-    margin: auto;
-}
-
-article#post1 {
-    max-width: 1000px ;
-    background-color: aliceblue;
-    padding-top: 15px;
-    border-radius: 5px 5px 0 0 ;
-    box-shadow: 1px 1px 1px 1px #0000001a;
-}
-
-article#post1 p {
-    text-align: justify ;
-    font-weight: 600;
-}
-
-article#post1 div {
-    max-width: 95%;
-    margin: auto;
-}
-
-
-article#post1 picture p {
-
-    text-align: center;
-}
-
-.imgC {
-    text-align: center;
-}
 
 /* select#sec1 {
     position: relative;

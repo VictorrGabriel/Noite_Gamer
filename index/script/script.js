@@ -26,3 +26,5 @@ let imgPost = [
 ArtigoPrincipal[0].setAttribute ('id', 'imgPrincipal' )
 imgPrincipal.setAttribute ('src', '../Reporter Jogo/imagens/banner_290.jpeg' )
 imgPrincipal.style.width = '200px'*/
+
+
