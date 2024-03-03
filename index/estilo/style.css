@@ -9,11 +9,15 @@
 }
 
 :root{
-    --cor0: #70BBE0;
-    --cor1: #538AA6;
-    --cor2: #2DA5E0;
-    --cor3: #1E6C93;
-    --cor4: #134761;
+    --cor0: #8CEFE9;
+    --cor1: #0D1B2A;
+    --cor2: #1B263B;
+    --cor3: #778DA9;
+    --cor4: #E0E1DD;
+
+    --cor1-degrade: #134F56;
+    --cor2-degrade: #0F3337;
+    --cor3-degrade: #0D2C2F;
 
     --font-padrao: Arial, verdana, helvetica, sans-serif;
     --font-titulo-site: 'Nunito', Arial, sans-serif;
@@ -22,7 +26,7 @@
 }
 
 body{
-    background-color: var(--cor0);
+    background-color: black;
     font: normal 1em var(--font-padrao);
     margin: 0;
 }
@@ -33,67 +37,25 @@ header{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 1px ;
     height: 250px;
     text-align: center;
     line-height: 200px;
-    margin-bottom: 1px ;
-}
-
-nav{
-    background-color: var(--cor4);
-    height: 20px;
-    box-shadow: -1px -1px 1px 1px #0000006b;
 }
 
 header h1 {
     color: white;
-    font-weight: 100;
     font-family: var(--font-titulo-site);
+    font-weight: 100;
 }
-
 
 main {
-    background-color: white;
-    max-width: 1200px;
-    padding: 10px;
-    margin: 2px auto 0 auto;
-}
-
-main h1{
-    text-align: center;
-    font: italic  400 1.7em var(--font-titulo-site), serif;
-}
-
-main h2{
-    margin-top: 30px;
-    text-align: center;
-    font: italic  small-caps 400 1.4em var(--font-titulos), serif;
-}
-
-article#most_recent_box {
+    color: white;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-section#most_recent_1{
-    width: 300px;
-    height: 180px;
-    border: solid;
-    display: inline-block;
-    margin-right: 10px;
+    margin: auto;
+    max-width: 1000px;
     
 }
-
-section#most_recent_2{
-    width: 300px;
-    height: 180px;
-    border: solid;
-    display: inline-block;
-    margin-left: 10px;
-}
-
 
 /* select#sec1 {
     position: relative;

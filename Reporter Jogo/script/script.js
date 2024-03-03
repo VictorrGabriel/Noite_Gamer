@@ -1,5 +1,5 @@
 alert(
-  "Este site ainda está em estapa de desenvolvimento, estamos apenas testando, se quisar pode nos ajudar reportando erros. Obrigado!"
+  "Este site ainda está em etapa de desenvolvimento, estamos apenas testando, se quisar pode nos ajudar reportando erros. Obrigado!"
 );
 
 let reporter1 = {
